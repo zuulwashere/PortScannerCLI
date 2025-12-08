@@ -9,11 +9,11 @@ The tool scans each port in the user defined range and reports the status of the
 
 ## Modules
 
-- argparse: for command line arguments\
-- socket: for TCP connections to ports\
-- sys: for error codes\
-- time: for delays between retries\
-- datetime: for timestamps in the output file\
+- argparse: for command line arguments
+- socket: for TCP connections to ports
+- sys: for error codes
+- time: for delays between retries
+- datetime: for timestamps in the output file
 
 ## Standard arguments
 
@@ -67,10 +67,10 @@ Example:
 
 The program handles:
 
--   Invalid port numbers\
--   Invalid port range order\
--   Hostname resolution failure\
--   Socket connection errors\
--   Keyboard interruption by users (i.e Ctrl+C)\
+-   Invalid port numbers
+-   Invalid port range order
+-   Hostname resolution failure
+-   Socket connection errors
+-   Keyboard interruption by users (i.e Ctrl+C)
 -   File write errors
 

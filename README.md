@@ -21,19 +21,20 @@ The tool scans each port in the user defined range and reports the status of the
 
 ### Required Arguments
 
-  Argument       Description
-  -------------- -----------------------------------------------
-  -t, --target   Target IP or domain (example: www.google.com)
-  --start-port   Starting port number (1--65535)
-  --end-port     Ending port number (must be ≥ start-port)
+| Argument      | Description                                                     |
+|---------------|-----------------------------------------------------------------|
+| -t, --target  | Target IP or domain (example: www.google.com)                   |
+| --start-port  | Starting port number (1--65535)                                 |
+| --end-port    | Ending port number (must be ≥ start-port)                       |
+
 
 ### Optional Arguments
 
-  Argument       Description                                       Default
-  -------------- ------------------------------------------------- ------------------
-  -o, --output   Output filename                                   scanResults.txt
-  --timeout      Seconds to wait before a port attempt times out   1.0
-  --retries      Retry attempts if a port times out                1
+| Argument     | Description                                          | Default         |
+|--------------|------------------------------------------------------|-----------------|
+| -o, --output | Output filename                                      | scanResults.txt |
+| --timeout    | Seconds to wait before a port attempt times out      | 1.0             |
+| --retries    | Retry attempts if a port times out                   | 1               |
 
 ## Example usage
 

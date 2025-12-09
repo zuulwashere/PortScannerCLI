@@ -15,7 +15,7 @@ The tool scans each port in the user defined range and reports the status of the
 - time: for delays between retries
 - datetime: for timestamps in the output file
 
-## Standard arguments
+## Arguments
 
     py PortScanCLI.py -t <TARGET> --start-port <STARTPORT> --end-port <ENDPORT>
 

@@ -1,4 +1,4 @@
-# PortScanCLI
+# Port Scanner CLI Tool
 
 Python CLI tool that scans a target IP or domain for open, closed, and unknown TCP ports. The program supports retries, timeout configuration, and writes results
 to an output file. (Default output file: scanResults.txt)
